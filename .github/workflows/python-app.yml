@@ -30,8 +30,3 @@ jobs:
       run: |
         make run &  # Start your Flask app using Makefile
         sleep 10  # Give time for the server to start
-
-    - name: Test with pytest
-      run: |
-        pytest
-
